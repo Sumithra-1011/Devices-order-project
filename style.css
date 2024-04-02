@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.9px;
+  font-family: "Poppins", sans-serif;
+}
+
+.firstcontainer p,
+.info {
+  color: rgb(218, 213, 213);
+}
+.info i {
+  color: blue;
+}
+.info:hover {
+  color: blue;
+}
+/* search */
+.search h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+.searchicon {
+  background-color: blue;
+  padding: 0px 30px;
+  padding-top: 15px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+}
+.searchbox input {
+  width: 350px;
+  padding: 16px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  outline: none;
+}
+.uicono i {
+  border: 2px solid;
+  padding: 3px;
+  margin-left: 15px;
+}
+.likeicon i:hover {
+  color: blue !important;
+}
+/* carousel */
+.carousell {
+  /* height: 100vh; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 24, 121, 1) 2%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.carousell button {
+  color: white;
+  background-color: transparent;
+  padding: 25px 20px;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.carouselinner {
+  padding-top: 150px;
+}
+/* product */
+.product h3 {
+  color: rgb(177, 169, 169);
+}
+.product p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* margin-top: 15px; */
+}
+.product .arrow i {
+  background-color: blue;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+}
+.selectbtn button {
+  border: 1px solid rgb(230, 216, 216);
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: rgb(100, 96, 96);
+  width: 180px;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+.selectbtn button:hover {
+  background-color: blue;
+  color: white;
+}
+.product-2 .card {
+  height: 550px;
+}
+.product-2 .cardimg {
+  width: 300px;
+  height: 300px;
+}
+/* redcolor */
+.redcolor {
+  background: rgb(218, 34, 99);
+  background: linear-gradient(
+    90deg,
+    rgba(218, 34, 99, 1) 0%,
+    rgba(201, 16, 66, 1) 72%,
+    rgba(182, 8, 8, 1) 100%
+  );
+  height: 50vh;
+}
+.redcolor button{
+    border: 3px solid rgb(230, 216, 216);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color:white;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    background-color: transparent;
+    
+}
+
+/* Featured */
+.Featured p{
+    font-size: 20px;
+
+}
+.Featured h3{
+    font-size:2.2rem;
+}
+.Featured .rade{
+    font-size: 1.5rem;
+    color:  rgb(100, 96, 96);
+    font-weight: bolder;
+}
+.Featured button{
+    border: 3px solid rgb(230, 216, 216);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    width: 200px;
+    background-color: transparent;
+}
+.blog button{
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    width: 200px;
+    background-color:rgb(88, 81, 81);
+    color: white;
+
+}
+.footericon i{
+    padding:15px;
+    color: white;
+    background-color:rgb(88, 81, 81) ;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.services ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
